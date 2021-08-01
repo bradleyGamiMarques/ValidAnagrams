@@ -31,6 +31,7 @@
  * validAnagram('race', 'car') => false
  * validAnagram('anagram', 'nagaram') => true
  * validAnagram('listen', 'silent') => true
+ * validAnagram('iceman', 'cinema') => true
  */
 
 /**
@@ -60,8 +61,9 @@ const validAnagram = (str1, str2) => {
   return true;
 };
 
-validAnagram('', '');
-validAnagram('rat', 'car');
-validAnagram('race', 'car');
-validAnagram('anagram', 'nagaram');
-validAnagram('listen', 'silent');
+console.log(validAnagram('', ''));
+console.log(validAnagram('rat', 'car'));
+console.log(validAnagram('race', 'car'));
+console.log(validAnagram('anagram', 'nagaram'));
+console.log(validAnagram('listen', 'silent'));
+console.log(validAnagram('iceman', 'cinema'));
